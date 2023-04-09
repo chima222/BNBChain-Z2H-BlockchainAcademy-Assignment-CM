@@ -1,0 +1,331 @@
+{
+  "address": "0xCc07DCEAa443d49B6998B0719A8F8a0BADc8C227",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "VERSION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "hashValue",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_initValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialized",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "numbers",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_newValue",
+          "type": "bytes32"
+        }
+      ],
+      "name": "setHashvalue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256[2]",
+          "name": "_newValue",
+          "type": "uint256[2]"
+        }
+      ],
+      "name": "setNumbers",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "_newValue",
+          "type": "uint8"
+        }
+      ],
+      "name": "setShortNumberA",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint8",
+          "name": "_newValue",
+          "type": "uint8"
+        }
+      ],
+      "name": "setShortNumberB",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "_newValue",
+          "type": "uint128"
+        }
+      ],
+      "name": "setShortNumberC",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_newValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "shortNumberA",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "shortNumberB",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "shortNumberC",
+      "outputs": [
+        {
+          "internalType": "uint128",
+          "name": "",
+          "type": "uint128"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "value",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x04e5c5469f8e9fdf35f4eb6e73f266764f02b3d5284b4b49fee22910607c6f28",
+  "receipt": {
+    "to": null,
+    "from": "0xc1f173b8B7Ed123706887c3bc3E72AF4cc51536d",
+    "contractAddress": "0xCc07DCEAa443d49B6998B0719A8F8a0BADc8C227",
+    "transactionIndex": 4,
+    "gasUsed": "363853",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x9d7707098d2a934f995e62d0aa0358382dc6793f7f25f9355b92368c14717579",
+    "transactionHash": "0x04e5c5469f8e9fdf35f4eb6e73f266764f02b3d5284b4b49fee22910607c6f28",
+    "logs": [],
+    "blockNumber": 28785392,
+    "cumulativeGasUsed": "600825",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 2,
+  "solcInputHash": "e4f9f7dfad504d497fe70af16b14791c",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"VERSION\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"hashValue\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_initValue\",\"type\":\"uint256\"}],\"name\":\"initialize\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"initialized\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"numbers\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"_newValue\",\"type\":\"bytes32\"}],\"name\":\"setHashvalue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256[2]\",\"name\":\"_newValue\",\"type\":\"uint256[2]\"}],\"name\":\"setNumbers\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_newValue\",\"type\":\"uint8\"}],\"name\":\"setShortNumberA\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint8\",\"name\":\"_newValue\",\"type\":\"uint8\"}],\"name\":\"setShortNumberB\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint128\",\"name\":\"_newValue\",\"type\":\"uint128\"}],\"name\":\"setShortNumberC\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_newValue\",\"type\":\"uint256\"}],\"name\":\"setValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"shortNumberA\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"shortNumberB\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"shortNumberC\",\"outputs\":[{\"internalType\":\"uint128\",\"name\":\"\",\"type\":\"uint128\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"value\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/StandardProxy/StandardImpl.sol\":\"StandardImpl\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/StandardProxy/StandardImpl.sol\":{\"content\":\"// SPDX-License-Identifier: MIT\\n\\npragma solidity ^0.8.10;\\n\\ncontract StandardImpl {\\n  // uint256 public constant VERSION = 1;\\n  uint256 public constant VERSION = 2;\\n\\n  bool public initialized;\\n\\n  uint256 public value;\\n\\n  bytes32 public hashValue;\\n  uint256[2] public numbers = [1, 2];\\n  uint8 public shortNumberA;\\n  uint8 public shortNumberB;\\n  uint128 public shortNumberC;\\n\\n  modifier initializer() {\\n    require(!initialized, \\\"Only initialize once\\\");\\n    _;\\n    initialized = true;\\n  }\\n\\n  function initialize(uint256 _initValue) public initializer {\\n    value = _initValue;\\n  }\\n\\n  function setValue(uint256 _newValue) public {\\n    value = _newValue + 10;\\n  }\\n\\n  function setHashvalue(bytes32 _newValue) public {\\n    hashValue = _newValue;\\n  }\\n\\n  function setNumbers(uint256[2] memory _newValue) public {\\n    numbers = _newValue;\\n  }\\n\\n  function setShortNumberA(uint8 _newValue) public {\\n    shortNumberA = _newValue;\\n  }\\n\\n  function setShortNumberB(uint8 _newValue) public {\\n    shortNumberB = _newValue;\\n  }\\n\\n  function setShortNumberC(uint128 _newValue) public {\\n    shortNumberC = _newValue;\\n  }\\n}\\n\",\"keccak256\":\"0x252281c5f096c954c85a357474c7ae8275cdf3b40cbd8474ef5e487e94fe89a9\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60c060405260016080908152600260a081905261001e91600391610031565b5034801561002b57600080fd5b50610089565b8260028101928215610064579160200282015b82811115610064578251829060ff16905591602001919060010190610044565b50610070929150610074565b5090565b5b808211156100705760008155600101610075565b6104db806100986000396000f3fe608060405234801561001057600080fd5b50600436106100f55760003560e01c806396132a1211610097578063ebb573ac11610066578063ebb573ac14610238578063f42cb06a14610269578063fe4b84df1461027b578063ffa1ad741461028e57600080fd5b806396132a1214610196578063ca701bc8146101d7578063d2af3c7914610201578063d39fa2331461022557600080fd5b80633fa4f245116100d35780633fa4f24514610148578063548f2e3e14610151578063552410771461016457806360c3a7e01461017757600080fd5b8063158ef93e146100fa5780632b92b8e51461011c5780633d23c91914610133575b600080fd5b6000546101079060ff1681565b60405190151581526020015b60405180910390f35b61012560025481565b604051908152602001610113565b610146610141366004610384565b610296565b005b61012560015481565b61014661015f366004610412565b600255565b610146610172366004610412565b6102a7565b6005546101849060ff1681565b60405160ff9091168152602001610113565b6101466101a436600461042b565b600580546001600160801b03909216620100000271ffffffffffffffffffffffffffffffff000019909216919091179055565b6101466101e536600461045b565b6005805460ff9092166101000261ff0019909216919091179055565b61014661020f36600461045b565b6005805460ff191660ff92909216919091179055565b610125610233366004610412565b6102b8565b600554610251906201000090046001600160801b031681565b6040516001600160801b039091168152602001610113565b60055461018490610100900460ff1681565b610146610289366004610412565b6102cf565b610125600281565b6102a36003826002610331565b5050565b6102b281600a61047e565b60015550565b600381600281106102c857600080fd5b0154905081565b60005460ff161561031d5760405162461bcd60e51b81526020600482015260146024820152734f6e6c7920696e697469616c697a65206f6e636560601b604482015260640160405180910390fd5b60019081556000805460ff19169091179055565b826002810192821561035f579160200282015b8281111561035f578251825591602001919060010190610344565b5061036b92915061036f565b5090565b5b8082111561036b5760008155600101610370565b60006040828403121561039657600080fd5b82601f8301126103a557600080fd5b6040516040810181811067ffffffffffffffff821117156103d657634e487b7160e01b600052604160045260246000fd5b80604052508060408401858111156103ed57600080fd5b845b818110156104075780358352602092830192016103ef565b509195945050505050565b60006020828403121561042457600080fd5b5035919050565b60006020828403121561043d57600080fd5b81356001600160801b038116811461045457600080fd5b9392505050565b60006020828403121561046d57600080fd5b813560ff8116811461045457600080fd5b8082018082111561049f57634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220a2ddf58b7695d80944ccd54cdac3484d5500ae04e4ab7d511dd3db785606394364736f6c63430008130033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100f55760003560e01c806396132a1211610097578063ebb573ac11610066578063ebb573ac14610238578063f42cb06a14610269578063fe4b84df1461027b578063ffa1ad741461028e57600080fd5b806396132a1214610196578063ca701bc8146101d7578063d2af3c7914610201578063d39fa2331461022557600080fd5b80633fa4f245116100d35780633fa4f24514610148578063548f2e3e14610151578063552410771461016457806360c3a7e01461017757600080fd5b8063158ef93e146100fa5780632b92b8e51461011c5780633d23c91914610133575b600080fd5b6000546101079060ff1681565b60405190151581526020015b60405180910390f35b61012560025481565b604051908152602001610113565b610146610141366004610384565b610296565b005b61012560015481565b61014661015f366004610412565b600255565b610146610172366004610412565b6102a7565b6005546101849060ff1681565b60405160ff9091168152602001610113565b6101466101a436600461042b565b600580546001600160801b03909216620100000271ffffffffffffffffffffffffffffffff000019909216919091179055565b6101466101e536600461045b565b6005805460ff9092166101000261ff0019909216919091179055565b61014661020f36600461045b565b6005805460ff191660ff92909216919091179055565b610125610233366004610412565b6102b8565b600554610251906201000090046001600160801b031681565b6040516001600160801b039091168152602001610113565b60055461018490610100900460ff1681565b610146610289366004610412565b6102cf565b610125600281565b6102a36003826002610331565b5050565b6102b281600a61047e565b60015550565b600381600281106102c857600080fd5b0154905081565b60005460ff161561031d5760405162461bcd60e51b81526020600482015260146024820152734f6e6c7920696e697469616c697a65206f6e636560601b604482015260640160405180910390fd5b60019081556000805460ff19169091179055565b826002810192821561035f579160200282015b8281111561035f578251825591602001919060010190610344565b5061036b92915061036f565b5090565b5b8082111561036b5760008155600101610370565b60006040828403121561039657600080fd5b82601f8301126103a557600080fd5b6040516040810181811067ffffffffffffffff821117156103d657634e487b7160e01b600052604160045260246000fd5b80604052508060408401858111156103ed57600080fd5b845b818110156104075780358352602092830192016103ef565b509195945050505050565b60006020828403121561042457600080fd5b5035919050565b60006020828403121561043d57600080fd5b81356001600160801b038116811461045457600080fd5b9392505050565b60006020828403121561046d57600080fd5b813560ff8116811461045457600080fd5b8082018082111561049f57634e487b7160e01b600052601160045260246000fd5b9291505056fea2646970667358221220a2ddf58b7695d80944ccd54cdac3484d5500ae04e4ab7d511dd3db785606394364736f6c63430008130033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 6,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "initialized",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_bool"
+      },
+      {
+        "astId": 8,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "value",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 10,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "hashValue",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_bytes32"
+      },
+      {
+        "astId": 17,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "numbers",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_array(t_uint256)2_storage"
+      },
+      {
+        "astId": 19,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "shortNumberA",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_uint8"
+      },
+      {
+        "astId": 21,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "shortNumberB",
+        "offset": 1,
+        "slot": "5",
+        "type": "t_uint8"
+      },
+      {
+        "astId": 23,
+        "contract": "contracts/StandardProxy/StandardImpl.sol:StandardImpl",
+        "label": "shortNumberC",
+        "offset": 2,
+        "slot": "5",
+        "type": "t_uint128"
+      }
+    ],
+    "types": {
+      "t_array(t_uint256)2_storage": {
+        "base": "t_uint256",
+        "encoding": "inplace",
+        "label": "uint256[2]",
+        "numberOfBytes": "64"
+      },
+      "t_bool": {
+        "encoding": "inplace",
+        "label": "bool",
+        "numberOfBytes": "1"
+      },
+      "t_bytes32": {
+        "encoding": "inplace",
+        "label": "bytes32",
+        "numberOfBytes": "32"
+      },
+      "t_uint128": {
+        "encoding": "inplace",
+        "label": "uint128",
+        "numberOfBytes": "16"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      },
+      "t_uint8": {
+        "encoding": "inplace",
+        "label": "uint8",
+        "numberOfBytes": "1"
+      }
+    }
+  }
+}
